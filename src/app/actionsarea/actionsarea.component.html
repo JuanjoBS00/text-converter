@@ -1,0 +1,13 @@
+<div class="actions_area">
+    <h3>Operaciones disponibles: </h3>
+    <div class="buttons_area">
+        <button mat-flat-button color="primary" (click)="performAction('mayus')">Mayúscula</button>
+        <button mat-flat-button color="primary" (click)="performAction('minus')">Minúscula</button>
+        <button mat-flat-button color="primary" (click)="performAction('exclamation')">Exclamación</button>
+        <button mat-flat-button color="primary" (click)="performAction('interrogation')">Interrogación</button>
+        <button mat-flat-button color="primary" (click)="performAction('acounter')">Cuenta A</button>
+        <button mat-flat-button color="warn" (click)="performAction('reset')">Vaciar</button>
+    </div>
+</div>
+
+<app-outcomearea [fixedText] = "res"></app-outcomearea>

@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'text-converter';
+  title = 'Convertidor de texto';
+  name = 'Juan José Bello Santana';
+  subject = 'Desarrollo de Aplicaciones Web 2';
 }

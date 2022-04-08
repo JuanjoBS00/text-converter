@@ -1,0 +1,9 @@
+<div class="entry_div">
+    <h3 class="entry_title">{{title}}</h3>
+    <textarea class="ent_textarea" name="entry_textarea" rows="15" cols="100" [(ngModel)]="textAreaContent"></textarea>
+</div> 
+
+
+<app-actionsarea [rawText]="textAreaContent" (check) = "reset($event)" ></app-actionsarea>
+
+

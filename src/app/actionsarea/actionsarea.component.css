@@ -1,0 +1,13 @@
+.actions_area {
+    float: right;
+    margin-right: 15%;
+    width: 30%;
+}
+
+.buttons_area {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15%;
+    text-align: center;
+  }
+  

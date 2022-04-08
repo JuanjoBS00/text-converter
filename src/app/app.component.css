@@ -1,0 +1,12 @@
+html{
+    background-color: rgb(204, 204, 204);
+}
+
+#converter_header{
+    padding: 30px;
+    text-align: center;
+    background: rgb(243, 130, 1);
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin-bottom: 2%;
+}
